@@ -1,0 +1,164 @@
+ a{
+     text-decoration: none;
+     color: rgb(54, 52, 52);
+ }
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.search-container {
+    
+    display: flex;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 30px;
+    padding: 5px;
+    max-width: 40%;
+    margin-left: 30%;
+    align-items: center;
+    margin-top: 30px;
+    height: 35px;
+}
+@media (max-width: 800px){
+    .search-container{
+        display: flex;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 30px;
+    padding: 5px;
+    max-width: 90%;
+    margin-left: 5%;
+    align-items: center;
+    margin-top: 30px;
+    height: 35px;
+    }
+
+      
+}
+.lucky{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+    left: 0px;
+    display: flex;
+    align-items: center;
+
+}
+@media (max-width: 800px) {
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        background-color: lightgray;
+        left: 0px;
+        display: flex;
+       flex-direction: column;
+       padding-top: 20px;
+    
+    }
+
+}
+.fas{
+    color: gray;
+    font-size: 24px;
+}
+#searchicon{
+   margin-left: 10px; 
+}
+#mic{
+    margin: 0 10px 0 auto;
+}
+#rightfooter{
+    display: flex;
+   align-self: center;
+   margin-top: 25px;
+
+}
+@media (min-width: 800px){
+    #rightfooter{
+        display: flex;
+       align-self: center;
+       margin: 0 10px 0 auto;
+       }
+}
+#terms{
+    margin-right: 10px;
+}
+#privacy{
+    margin-right: 10px;
+}
+#leftfooter{
+    display: flex;
+    margin-left: 10px;
+
+}
+#advertising{
+    margin-left: 10px;
+}
+#business{
+    margin-left: 10px;
+}
+#howsearchworks{
+    margin-left: 10px;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    align-items: center;
+    margin-right: 10px;
+}
+#logo{
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+#gmail{
+    margin-right: 10px;
+}
+#images{
+    margin-right: 10px;
+  
+}
+#apps{
+margin-right: 10px;
+}
+#search{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+#search-button{
+ margin-right: 10px;
+}
+#lucky{
+    margin-left: 10px;
+    color: rgb(39, 37, 37);
+    border-color: transparent;
+    border-radius: 10px;
+}
+#gsearch{
+    margin-left: 10px;
+    color: rgb(39, 37, 37);
+    height: 40px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+#sign-in{
+    background-color: rgb(1, 26, 250);
+    color: white;
+    height: 90%;
+    width: 70px;
+    border-radius: 5px;
+   border-color: transparent;
+}
